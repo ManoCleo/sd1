@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Adiciona um marcador na localização da loja
-L.marker([--23.689448087131737, -46.55299261568266])
+L.marker([-23.689448087131737, -46.55293897150439])
   .addTo(map)
   .bindPopup("Faculdade Anhanguera<br>R. Atlântica, 731 - Jardim do Mar, São Bernardo do Campo - SP, 09750-480")
   .openPopup();
